@@ -1,0 +1,29 @@
+{
+  "name": "mctools-api",
+  "version": "1.0.0",
+  "description": "An API to get info from Minecraft servers!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodywillis/mctools-api.git"
+  },
+  "author": "OffensivelyKind",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/woodywillis/mctools-api/issues"
+  },
+  "homepage": "https://github.com/woodywillis/mctools-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "minecraft-protocol": "^1.30.0",
+    "mongoose": "^6.2.3"
+  }
+}
