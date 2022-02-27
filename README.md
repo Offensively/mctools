@@ -22,7 +22,7 @@ Clone the project
 Go to the api in the project directory
 
 ```bash
-  cd mctools/msctools-api
+  cd mctools/mctools-api
 ```
 
 Install dependencies
